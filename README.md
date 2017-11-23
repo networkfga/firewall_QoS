@@ -105,7 +105,7 @@ $ ssh <user>@10.0.0.X
 Para limitar a banda da subrede, utiliza-se o pacote **wondershaper**. Definiremos um limite de 1024 kbps tanto para upload quando download, basta utilizar o comando:
 
 ```shell
-$ wondershaper 1024 1024
+$ wondershaper <interface_rede> 1024 1024
 ```
 
 Para testar a largura de banda entre no site [Copel](http://www.copeltelecom.com/site/speedtest/) e verifique a velocidade de conexão.
